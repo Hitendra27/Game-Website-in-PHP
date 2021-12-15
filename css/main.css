@@ -1,0 +1,195 @@
+@charset "utf-8";
+
+h1 {
+    text-align: center;
+    column-span: all;
+    color: red;
+    font-family: 'Rouge Script';
+    font-size: 80px;
+    font-weight: normal;
+    line-height: 48px;
+    margin: 0 0 50px;
+    text-shadow: 1px 1px 2px #082b34;
+
+    
+    
+
+}
+p{
+  font-family: 'Original Surfer', cursive;
+  font-size: 24px;
+  line-height: 28px;
+  margin: 0 0 24px;
+}
+
+.foot{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+
+article {
+  float:left;
+  margin-left:2.5%;
+  margin-bottom: 10px;
+  border: 1px dashed red;
+  width: 90%;
+  min-height: 600px;
+  /*min-width: 600px; */
+  padding: 15px;
+}
+
+body {
+    color: black;
+    font: 12pt verdana, Arial, Georgia, sans-serif;
+    text-align: center;
+    background-color: whitesmoke;
+
+    
+}
+
+  footer {
+    background-color: rgb(7, 7, 7);
+    padding: 10px;
+    text-align: center;
+    color: beige;
+    clear:both;
+    margin:20px auto;
+    border: 1px dashed;
+    width: 95%;
+    min-height: 100px;
+    
+  }
+
+  header {
+    background-color: rgb(7, 7, 7);
+    padding: 15px;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    font-size: 20px;
+    color: beige;
+    list-style-type: none;
+    margin: 0;
+    display: block;
+    margin:20px auto;
+    border: 1px dashed;
+    width: 95%;
+    min-height: 100px;
+  }
+
+  ol,ul{
+
+    list-style:none;
+    overflow: hidden;
+}
+
+#mainMenu{
+    margin:8px;
+    width: 1000px;
+    font-family:sans-serif;
+    
+}
+
+
+
+#mainMenu a{
+
+padding:2px;
+text-decoration:none;
+color:yellow;
+
+
+}
+
+#mainMenu a:hover{
+    background-color:rgb(221, 101, 101);
+}
+
+.active {
+
+  background-color: blue;
+}
+
+table{
+  float: center;
+  width: 20%;
+  border-collapse:collapse;
+
+
+}
+tr:nth-of-type(even)
+{
+   background:greenyellow;
+}
+
+th{
+   background:yellow;
+   color:blue;
+   font-weight:bold;
+   /*font-size-adjust: */
+   font-size: 20px;
+   
+}
+
+td,th{
+   padding:15px;
+   border:1px solid blue;
+   text-align:left;
+}
+
+/* buttons */
+.btn {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+  width: 20rem;
+  text-align: center;
+  border: 0.1rem solid rgb(226, 139, 139);
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: #ee8484;
+  background-color: white;
+}
+
+.Search {
+  color: blue;
+  background-color: coral;
+}
+
+
+
+
+
+.thumbnail img{
+  max-height: 150px; 
+}
+main {
+  min-height: 100vh;
+}
+
+c
+h2{font-weight: bolder; 
+}
+.jumbotron_style{margin-top: 70px;
+}
+.table_style{margin-top: 70px;
+}
+h4{font-weight: bolder;
+}
+.container_style{margin-top: 80px;
+}
+
+.add-to-cart {
+  margin: 0;
+  background-color: #337ab7;
+  color: #ffffff;
+  border: 0;
+  border-radius: 4px;
+  outline: none;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+}
+.padding-20 {
+   padding: 20px;
+}
+       
